@@ -19,3 +19,24 @@ With the advancement of convolutional and recurrent neural network architectures
 
  ### Publishing 
  You can view my complete research paper here! [Click Here](https://link.springer.com/chapter/10.1007/978-981-96-1758-6_31)
+
+
+ ### Some information about the research project
+
+ 1. The dataset used for this project is the World Level American Sign Language (WLASL) video dataset. It is publically available on Kaggle. You can find the link to it here: https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed
+
+ 2. For the project, we have used a subset of 10 classes. The following classes were selected– ’before’, ’computer’, ’cool’, ’cousin’, ’drink’, ’go’, ’help’, ’take’, ’thin’, and ’who’. On average, there are around 11 videos per class.   
+
+ 3. The following models were developed and used in this project:
+    - ResNet50
+    - ResNet50 + BiLSTM
+    - Xception
+    - Xception + BiLSTM
+
+4. The following were the evaluation metrics used to evaluate the model perfomances:
+    - Accuracy (Also considering the Average accuracies of Train, Validation and Test sets)
+    - Precision 
+    - Recall
+    - F1 Score
+    - Accuracy and loss graphs (included in Final_Dissertation_Report pdf document)
+    - Confusion matrix (included in Final_Dissertation_Report pdf document)
